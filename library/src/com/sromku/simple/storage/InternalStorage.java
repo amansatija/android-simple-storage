@@ -18,7 +18,7 @@ import com.sromku.simple.storage.SimpleStorage.StorageType;
 public class InternalStorage extends AbstractDiskStorage {
 	private Context mContext;
 
-	InternalStorage() {
+	public InternalStorage() {
 		super();
 	}
 
@@ -28,7 +28,7 @@ public class InternalStorage extends AbstractDiskStorage {
 	 * 
 	 * @param context
 	 */
-	void initActivity(Context context) {
+	public void initActivity(Context context) {
 		mContext = context;
 	}
 
